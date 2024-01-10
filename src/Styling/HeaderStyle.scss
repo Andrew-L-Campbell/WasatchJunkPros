@@ -1,0 +1,48 @@
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%; 
+
+
+    
+
+    .logo-container {
+        margin-right: 20px; 
+    }
+
+    .logo {
+        height: 90px;
+        width: auto;
+    }
+
+    .header-navs {
+        display: flex;
+        align-items: center;
+        margin-right: auto; 
+
+        a {
+            margin: 0 25px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .call-us {
+        display: flex;
+        align-items: center;
+        font-size: 2em;
+        margin-left: 20px; 
+        margin-right: 40px; 
+
+        .phone-logo {
+            margin-right: 10px;
+        }
+    }
+}

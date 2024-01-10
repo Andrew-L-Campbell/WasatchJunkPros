@@ -1,0 +1,46 @@
+$primary-color: #2A96ED;
+$secondary-color: #2aede3;
+$third-color: #2a35ed;
+
+
+.home-container {
+    .wasatch {
+        width: 100%;
+        height: auto;
+    }
+
+    .opening-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .opening-text-overlay {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+         width: 400px;
+    }
+
+    .family img{
+        position: absolute;
+        display:flex;
+        justify-content: center;
+        top: 10%;
+        right: 10%;
+        align-items: center;
+        border-radius: 15px;
+        background-color: white;
+        border-radius: 75px;
+    }
+
+}
+
