@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     width: 100%; 
 
 
@@ -32,12 +32,16 @@
                 text-decoration: underline;
             }
         }
+        .active-link {
+            color: #2A96ED; 
+            font-weight: bold; 
+        }
     }
 
     .call-us {
         display: flex;
         align-items: center;
-        font-size: 2em;
+        font-size: 1.3em;
         margin-left: 20px; 
         margin-right: 40px; 
 

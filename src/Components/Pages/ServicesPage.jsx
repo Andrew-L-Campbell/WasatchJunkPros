@@ -32,7 +32,7 @@ const ServicesPage = () => {
 
     return (
         <div className="services-container">
-            <h1>Services we offer:</h1>
+            <h1>Wasatch Junk Pros offers a variety of junk removal services which include:</h1>
             <div className="img-container">
                 {serviceItems}
             </div>
