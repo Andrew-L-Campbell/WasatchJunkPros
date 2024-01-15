@@ -1,0 +1,33 @@
+.footer-container {
+    background-color:#2A96ED;
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row; // Three columns layout on larger screens
+            justify-content: space-around; // Space columns evenly
+            align-items: center; // Center-align items vertically
+        }
+
+        .section {
+            text-align: left; // Center-align text within each section
+            margin: 10px; // Add margin between sections
+            font-size: 10px;
+            color: white;
+            border: 2px ,black;
+
+            @media (min-width: 768px) {
+                flex: 1; // Allow sections to take equal space in a row
+            }
+        }
+        .section h1 {
+            color: black;
+        }
+
+        .section h2 {
+            
+        }
+    }
+}

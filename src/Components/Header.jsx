@@ -16,14 +16,16 @@ const Header = () => {
                 <NavLink to="/services" className={({ isActive }) => isActive ? 'active-link' : ''}>Services</NavLink>
                 <NavLink to="/book-now" className={({ isActive }) => isActive ? 'active-link' : ''}>Book Now</NavLink>
                 <NavLink to="/about" className={({ isActive }) => isActive ? 'active-link' : ''}>About Us</NavLink>
-                <NavLink to="/contact" className={({ isActive }) => isActive ? 'active-link' : ''}>Contact Us</NavLink>
                 <NavLink to="/pricing" className={({ isActive }) => isActive ? 'active-link' : ''}>Pricing</NavLink>
                 <NavLink to="/locations" className={({ isActive }) => isActive ? 'active-link' : ''}>Cities Served</NavLink>
             </nav>
             <div className='call-us'>
                 <BookButton/>
+                <div>
+                    
+                </div>
                 <img src='phone.gif' alt='Logo' className='phone-logo' />
-                <div className='phone'> (801) 707-9107 </div>
+                <a href="tel:+8017079107" className='phone'>801-707-9107</a>
             </div>
         </header>
     );

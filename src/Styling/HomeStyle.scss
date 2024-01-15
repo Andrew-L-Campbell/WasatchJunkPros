@@ -4,43 +4,97 @@ $third-color: #2a35ed;
 
 
 .home-container {
-    .wasatch {
-        width: 100%;
-        height: auto;
+    padding: 10px;
+
+    .headline-columns {
+        display: grid;
+        grid-template-columns: 1fr; 
+    
+
+        @media (min-width: 768px) {
+            grid-template-columns: 1fr 1fr; 
+            grid-gap: 20px; 
+            align-items: center; 
+        }
     }
 
-    .opening-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
-
-    .opening-text-overlay {
-        position: absolute;
-        top: 10%;
-        left: 10%;
-        color: white;
-        font-size: 40px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-         width: 400px;
-    }
-
-    .family img{
-        position: absolute;
-        display:flex;
-        justify-content: center;
-        top: 10%;
-        right: 10%;
+    .headline {
         align-items: center;
-        border-radius: 15px;
-        background-color: white;
-        border-radius: 75px;
+        padding: 10px;
     }
+
+    .headline-image {
+        img {
+            max-width: 80%; 
+            height: auto; 
+            padding: 10px;
+        }
+    }
+    .problem-solution {
+        background-color: rgb(240, 237, 237);
+    }
+    .benefits {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        padding: 10px;
+        gap: 50px;
+        
+    }
+    .benefits h1{
+        font-size: 20px;
+    }
+    .benefits h2{
+        font-size: 15px;
+    }
+    .benefits-heading {
+        text-align: center;
+        color: #2a35ed;
+    }
+
+    .features-container {
+        text-align: center;
+        background-color: rgb(240, 237, 237);
+    }
+    .feature-columns {
+        display: grid;
+        grid-template-columns: 1fr; 
+
+        @media (min-width: 768px) {
+            grid-template-columns: 1fr 1fr; 
+            grid-gap: 20px; 
+            align-items: center; 
+        }
+    }
+    .feature-columns h1 {
+        font-size: 20px;
+    }
+    .feature-columns h2 {
+        font-size: 15px;
+    }
+    .checklist {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      .checklist li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .checkmark {
+        font-size: 1.5em;
+        margin-right: 10px;
+        color: green;
+      }
+      .faq-container {
+        padding: 50px;
+      }
+      .book-container {
+        display: grid;
+        place-items: center;
+      }
 
 }
 

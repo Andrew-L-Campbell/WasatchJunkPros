@@ -44,9 +44,14 @@
         font-size: 1.3em;
         margin-left: 20px; 
         margin-right: 40px; 
+        white-space: nowrap;
 
         .phone-logo {
             margin-right: 10px;
+            padding: 5px;
+        }
+        .phone {
+            color: #2a35ed;
         }
     }
 }

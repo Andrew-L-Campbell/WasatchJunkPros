@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import '../../Styling/Buttons.scss';
+import '../../Styling/ButtonsStyle.scss';
 
 
 const BookButton = () => {
@@ -12,7 +12,7 @@ const BookButton = () => {
     }
 
     return (
-        <button class="book-button" role="button" onClick={buttonClick}>Book Now</button>
+        <button className="book-button" role="button" onClick={buttonClick}>Book Appointment</button>
     )
 }
 export default BookButton;
