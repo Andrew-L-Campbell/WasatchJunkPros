@@ -82,7 +82,10 @@ const BookNowPage = () => {
         <div className="contact-us-container">
             <div className="title">
                 <h1>Book Now</h1>
-                <p>You will recieve a phone call from Wasatch Junk Pros to confirm the appointment.</p>
+                <h2>
+                    Give us a call at: 801-707-9107<br/>Or Schedule online below!
+                </h2>
+
             </div>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} value={formData.firstName}/>
@@ -101,6 +104,10 @@ const BookNowPage = () => {
                 {validationErrors.description && <div className="error">{validationErrors.description}</div>}
                 <button className="submit" type="submit">Schedule Appointment</button>
             </form>
+            <div className="title">
+                <p>You will recieve a phone call from Wasatch Junk Pros to confirm the appointment.</p>
+            </div>
+
         </div>
     );
 }

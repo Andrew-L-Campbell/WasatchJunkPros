@@ -1,0 +1,21 @@
+/* Define a class for the grid container */
+.columns {
+  display: flex;
+  justify-content: space-evenly; /* Center columns horizontally */
+  gap: 20px;
+}
+
+.salt-container,
+.utah-container {
+  flex: 1; /* Make both containers equal width within the grid container */
+  padding: 10px;
+  text-align: center; /* Center text within each container */
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Add some space below the headers */
+  background-color: rgb(240, 237, 237);
+}

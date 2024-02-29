@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="home-container">
             <div className="headline-columns">
                 <div className="headline">
-                    <h1>Efficient and Affordable - Wasatch Junk Pros: Your Local Junk Removal Company</h1>
+                    <h1>Efficient and Affordable - Wasatch Junk Pros: Your Local Junk Removal Business</h1>
                     <h2>Clean Up with Ease: Choose Local Wasatch Junk Pros for Quick and Budget-Friendly Junk Removal Services</h2>
                     <BookButton />
                 </div>
@@ -24,7 +24,7 @@ const HomePage = () => {
                         <img src={JunkImage} alt="Happy Customer" />
                     </div>
                     <div className="headline">
-                        <h1>Overwhelmed by Clutter </h1>
+                        <h2>Overwhelmed by Clutter </h2>
                         <h3>Clutter is a common yet overwhelming issue. Piles of unused items and
                             old furniture not only take up space but also create stress and disorganization in your daily life.
                         </h3>
@@ -33,7 +33,7 @@ const HomePage = () => {
                             The daunting task of sorting, lifting, and disposing of junk adds to the frustration.
                             Imagine struggling to find things in a chaotic space or feeling embarrassed by the mess when guests arrive.
                         </h3>
-                        <h2>Solution with Wasatch Junk Pros </h2>
+                        <h2>Solution, Junk Removal Service </h2>
                         <h3>
                             Wasatch Junk Pros offers a stress-free solution to this clutter chaos.
                             We handle all aspects of junk removal, ensuring a clean, organized space for you. Choose us for a hassle-free
@@ -44,9 +44,10 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="benefits-container">
-                <h1 className="benefits-heading">
+                <h2 className="benefits-heading">
                     Why Choose Us?
-                </h1>
+                </h2>
+
                 <div className="benefits">
                     <div>
                         <h1>

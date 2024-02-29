@@ -24,7 +24,7 @@ const formatTime = (timeString) => {
 };
 
 
-const allowedOrigins = ['http://localhost:3000', 'https://beamish-lollipop-b959cd.netlify.app'];
+const allowedOrigins = ['http://localhost:3000', 'https://wasatchjunkpros/book-now', 'https://wasatchjunkpros'];
 
 app.use(cors({
     origin: function(origin, callback){
